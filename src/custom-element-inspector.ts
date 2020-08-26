@@ -1,7 +1,7 @@
 import { CustomElement } from "aurelia";
 
 
-export class StoryInspector {
+export class CustomElementInspector {
 
     constructor(private element: HTMLElement) {
     }
