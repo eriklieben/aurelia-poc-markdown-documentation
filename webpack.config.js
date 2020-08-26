@@ -17,7 +17,8 @@ const postcssLoader = {
   options: {
     plugins: () => [
       require('autoprefixer')()
-    ]
+    ],
+    
   }
 };
 
