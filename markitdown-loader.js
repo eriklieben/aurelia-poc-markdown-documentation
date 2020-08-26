@@ -9,8 +9,8 @@ module.exports = function (source) {
         if (lang !== 'aurelia-story') {
             return text;
         }
-        return `<pre></pre><p>Code usage:</p><pre><code class="language-html">${ parser.utils.escapeHtml(text) }</code></pre>` + 
-        `<p>Component view:</p><import from="./story-inspector"></import><story-inspector>${text}</story-inspector>`;
+        return `<pre></pre><p>Custom Element code usage:</p><pre><code class="language-html">${ parser.utils.escapeHtml(text) }</code></pre>` + 
+        `<p>Custom Element view:</p><import from="./custom-element-inspector"></import><custom-element-inspector>${text}</custom-element-inspector>`;
         },
         html: true
     });

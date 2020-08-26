@@ -1,5 +1,5 @@
 # The button control
-Use the ```my-button``` control when for action on pages ~~or when navigating to pages~~.
+Use the ```my-button``` custom element when for action on pages ~~or when navigating to pages~~. lorem *ipsum*.
 
 ## Usage
 ```aurelia-story
