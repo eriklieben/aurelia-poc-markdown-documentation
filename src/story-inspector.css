@@ -1,0 +1,15 @@
+.story-inspector {
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+    margin-top: 1rem;
+}
+.story-inspector label {
+    display: block;
+    margin: 1rem 0;
+}
+.story-inspector label input[type=text] {
+    display: block;
+    padding: .2rem .5rem;
+    width: calc(100% - 1rem);
+    margin-top: .5rem;
+}

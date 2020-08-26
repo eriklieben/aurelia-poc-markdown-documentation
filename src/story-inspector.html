@@ -1,0 +1,9 @@
+<section class="story-inspector">
+    <p>Component inspector for ${name}:</p>
+    <label repeat.for="prop of properties">
+        ${prop.name} (${prop.type})
+        <input if.bind="prop.type == 'string'" type="text" value.bind="viewModel[prop.name]">
+        <input if.bind="prop.type == 'boolean'" type="checkbox" checked.bind="viewModel[prop.name]">
+    </label>
+</section>
+
